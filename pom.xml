@@ -115,7 +115,7 @@
                     <properties>
                         <property>
                             <name>listener</name>
-                            <value>com.liuwei.testng.base.TestCaseRunnerListener,org.uncommons.reportng.HTMLReporter</value>
+                            <value>com.yoopay.testng.base.TestCaseRunnerListener,org.uncommons.reportng.HTMLReporter</value>
                         </property>
                     </properties>
                 </configuration>
@@ -128,7 +128,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.liuwei.testng.TestRunnerMain</mainClass>
+                            <mainClass>com.yoopay.testng.TestRunnerMain</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

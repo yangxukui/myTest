@@ -5,7 +5,7 @@
   <parameter name="test1" value="Xiao" />
   <test name="Nopackage" preserve-order="true"><!-- true保证节点下面的方法是按顺序执行-->
     <classes>
-       <class name="com.liuwei.testng.TestTest" >
+       <class name="com.yoopay.testng.TestTest" >
         <methods>
           <include name="TestNgLearn2"/>
         </methods>
@@ -14,7 +14,7 @@
   </test>
   <test name="DataProvider" preserve-order="true"><!-- true保证节点下面的方法是按顺序执行-->
     <classes>
-      <class name="com.liuwei.testng.TestTest" >
+      <class name="com.yoopay.testng.TestTest" >
         <methods>
           <include name="ParaTest"/>
         </methods>
